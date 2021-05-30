@@ -49,7 +49,7 @@ export async function getStaticProps() {
                 image,
             })),
         },
-        revalidate: 3600,
+        revalidate: 10,
     };
 }
 
